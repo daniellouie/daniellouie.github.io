@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot {
+    max-width: 150px; /* Set the maximum width you prefer */
+    height: auto;    /* Let the height adjust automatically */
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+section {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+section div {
+    margin-bottom: 15px; /* Adjust the value as needed for the desired spacing */
+}
+
+.project {
+    padding: 10px; /* Adjust the padding value as needed */
+    margin-bottom: 10px; /* Optional: Adjust the margin-bottom value if needed */
+}
+
+.home-button {
+    margin-bottom: 15px; /* Adjust the value as needed for the desired spacing */
+}
+
+.home-button {
+    margin-right: 10px; /* Add right margin for spacing */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%; /* Ensures images scale down proportionally */
+    height: auto; /* Maintains the original aspect ratio */
+    max-width: 500px; /* Set the maximum width you prefer */
+}
+
+.project-images img {
+    max-width: 100%; /* Ensures images scale down proportionally */
+    height: auto; /* Maintains the original aspect ratio */
+    max-width: 500px; /* Set the maximum width you prefer */
+}
+
+h1 {
+    margin: 0;
+}
+
+.video-section {
+    max-width: 640px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the video horizontally */
+}
+
+.video-section video {
+    width: 100%; /* Make the video fill its container */
+}
+
